@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Kotak Atas -->
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/nav_search"
+            android:title="@string/search_icon"
+            android:icon="@drawable/search_icon"/>
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="@string/all_categories"
+            android:icon="@drawable/categories"/>
+        <item
+            android:id="@+id/nav_locations"
+            android:title="@string/add_locations"
+            android:icon="@drawable/locations"/>
+    </group>
+
+
+    <item android:title="Akun">
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="@string/login"
+                    android:icon="@drawable/menu_icon_login"/>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="@string/profile"
+                    android:icon="@drawable/menu_profil_icon"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+                    android:icon="@drawable/menu_logout_icon"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Kategori">
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_restaurants"
+                    android:title="@string/restaurant"
+                    android:icon="@drawable/restaurant_icon"/>
+                <item
+                    android:id="@+id/nav_hotels"
+                    android:title="@string/hotels"
+                    android:icon="@drawable/hotel"/>
+                <item
+                    android:id="@+id/nav_wisata"
+                    android:title="@string/wisata"
+                    android:icon="@drawable/wisata"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Share">
+        <menu>
+
+            <group
+                android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="@string/share"
+                    android:icon="@drawable/menu_share_icon"/>
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="@string/rate_us"
+                    android:icon="@drawable/menu_rate_us_icon"/>
+            </group>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Bangka Island</string>
+    <string name="logo_name">Bangka Island</string>
+    <string name="slogan_name">Mari menjelajah bersama kami!</string>
+    <string name="powered_by">Powered By Mahasiswa Atma Luhur</string>
+
+    <!-- Strings for Dashboard -->
+
+    <!--Categories-->
+    <string name="restaurant">Oleh-Oleh</string>
+    <string name="hotels">Penginapan</string>
+    <string name="wisata">Wisata</string>
+    <string name="zoo">Kebun Binatang</string>
+
+    <!-- titles and descriptions -->
+    <string name="featured_locations">Semua lokasi unggulan</string>
+    <string name="featured_locations_description">Semua lokasi yang ditampilkan memiliki pengunjung yang tinggi di pulau bangka belitung</string>
+    <string name="most_viwed_locations">Paling Banyak Dilihat</string>
+    <string name="categories">Kategori</string>
+    <string name="view_all">Lihat Semua</string>
+    <string name="search_text">Pencarian</string>
+
+    <!-- titles menu nav bar -->
+    <string name="home">HOME</string>
+    <string name="search_icon">PENCARIAN</string>
+    <string name="all_categories">SEMUA KATEGORI</string>
+    <string name="add_locations">TEMPAT YANG DIKUNJUNGI</string>
+
+    <!-- profile nav bar -->
+    <string name="login">Login</string>
+    <string name="profile">Profil</string>
+    <string name="logout">Keluar</string>
+
+    <!-- share nav bar -->
+    <string name="share">Bagikan ke teman</string>
+    <string name="rate_us">Nilai kami</string>
+
+    <!-- bar -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Retail Panel Strings -->
+    <string name="sign_up">Daftar</string>
+    <string name="retailer_heading">Temukan wisata favoritmu</string>
+    <string name="retailer_tag_line">Kami membantu anda menemukan tempat wisata terbaik di Bangka Belitung.</string>
+    <string name="create_account">Tidak punya akun?Buat Akun</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Lupa Password</string>
+    <string name="enter_username">Masukkan Username</string>
+    <string name="enter_password">Masukkan Password</string>
+    <string name="enter_full_name">Masukkan Nama Lengkap</string>
+    <string name="enter_email">Email</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base appliaction theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Mennu Style -->
+    <style name="navigationTheme">
+
+        <!-- color of text and icon when selected -->
+        <item name="colorPrimary">@color/primary</item>
+        <!-- background color when selected -->
+        <item name="colorControlHighlight">@color/colorAccent</item>
+
+
+
+
+    </style>
+
+</resources>
