@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".History">
+
+    <LinearLayout
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:onClick="callWisata"
+            android:paddingLeft="35dp"
+            android:src="@drawable/general_back_icon"
+            android:transitionName="transition_retailer"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/tenggiri"
+                android:elevation="10dp">
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorAccent"
+                android:elevation="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/primaryDark"
+                    android:text="Sejarah Pantai Parai Tenggiri"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/primary"
+                    android:elevation="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:text="Bagi wisatawan yang pernah berkunjung ke Bangka,
+pantai Parai Tenggiri tentu sudah tak asing lagi. Apalagi
+dikalangan masyarakat Bangka. Kawasan ini bahkan
+dikenal luas sebagai ikon pariwisata Kab. Bangka.
+
+Pantai ini dikelola oleh el-john lengkap dengan berbagai
+fasilitasi, aneka permainan, seperti banana boad, jet sky,
+dll serta kolam renang yang besar yang berada persis
+dipinggir pantai yang wajib anda coba.
+Pantai ini dulunya
+dinamai dengan pantai “Hak Kok”. Namun pada kisaran
+tahun 1948-1949 pantai ini diganti atau diberi nama oleh
+Presiden pertama Indonesia, Ir. Soekarno, dengan nama
+“Parai Tenggiri”.
+
+
+Secara etimologis, kata-kata parai memang tidak ditemukan dalam kamus bahasa Indonesia. Bahkan tidak juga terdapat dalam kosa-kata bahasa daerah Bangka. Namun sebagaimana yang dituturkan oleh CEO El-John Group, Johnnie Sugianto, parai yang dimaksudkan oleh Soekarno adalah berarti “Surga”. Dari istilah mana pastinya istilah ini belum pernah ditemukan."
+                        android:gravity="center_vertical"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

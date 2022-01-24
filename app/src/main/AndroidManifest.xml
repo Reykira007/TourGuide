@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UAS_DPM_TI5A_TOURGUIDE">
         <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".Wisata"
+            android:exported="false" />
+        <activity
             android:name=".Makanan"
             android:exported="false" />
         <activity
