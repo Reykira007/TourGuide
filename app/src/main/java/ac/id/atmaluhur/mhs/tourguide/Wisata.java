@@ -8,12 +8,12 @@ import android.os.Bundle;
 import android.util.Pair;
 import android.view.View;
 
-public class Makanan extends AppCompatActivity {
+public class Wisata extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_makanan);
+        setContentView(R.layout.activity_wisata);
     }
 
     public void callDashboard(View view){
@@ -21,4 +21,11 @@ public class Makanan extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(),Dashboard.class));
 
     }
+
+    public void callHistory(View view){
+
+        startActivity(new Intent(getApplicationContext(),History.class));
+
+    }
+
 }

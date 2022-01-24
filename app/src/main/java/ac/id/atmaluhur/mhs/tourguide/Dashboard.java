@@ -142,6 +142,12 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
 
     }
 
+    public void callWisata(View view){
+
+        startActivity(new Intent(getApplicationContext(),Wisata.class));
+
+    }
+
     private void featuredRecycler() {
 
         featuredRecycler.setHasFixedSize(true);
