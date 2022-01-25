@@ -136,7 +136,7 @@
                         android:layout_height="match_parent"
                         android:layout_alignParentRight="true"
                         android:layout_marginLeft="40dp"
-                        android:background="@drawable/samablikung"
+                        android:background="@drawable/sambalikung"
                         android:elevation="10dp"
                         app:cardCornerRadius="15dp">
 
