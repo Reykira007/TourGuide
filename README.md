@@ -1,3 +1,6 @@
 # Tour-GuideApp-Bangka-Island
-Kolaborasi membangun TourGuide App untuk wilayah Bangka Belitung
-Untuk Mempermudah Para turis mencari tempat wisata yang ada di bangka
+Project ini kami bangun bersama
+Ari Januari
+Firga Ismayoza
+Fauzan Fuad Fadhilah
+Fajar Bahari
