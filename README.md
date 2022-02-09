@@ -1,4 +1,4 @@
-# Tour-Guide-Bangka-Island
+# Tour-GuideApp-Bangka-Island
 Project ini kami buat untuk memenuhi UAS Desain Pemprograman Mobile
 
 Kelompok TI5A
